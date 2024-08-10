@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@1,500&family=Red+Hat+Display&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+    --corprimaria: #F6F5F2;
+    --corsecundaria: #F0EBE3;
+    --corterciaria: #F3D0D7;
+    --hover: #B5C0D0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+}
+body {
+    background-color: var(--corprimaria);
+}
+
+.apresentacao-principal {
+    background-color: var(--corsecundaria);
+    width: 975px;
+    display: flex;
+    padding: 20px;
+    margin: 0px auto 95px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.logo {
+    padding: 1%;
+    margin: 1%;
+}
+
+.text-area {
+    width: 400px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    border: none;   
+    border-radius: 12px; 
+    text-align: center;
+}
+ .atencao img {
+    width: 2%;
+}
+
+.button {
+    align-items: center;
+}
+
+.btn-encriptar  {
+    width: 190px;
+    height: 55px;
+    background-color: var(--corterciaria);
+    border: none;
+    border-radius: 16px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    color: var(--corprimaria);
+}
+.btn-encriptar:hover {
+    background-color: var(--hover);
+}
+.btn-desencriptar{
+    width: 190px;
+    height: 55px;
+    background-color: var(--corterciaria);
+    border: none;
+    border-radius: 16px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    color: var(--corprimaria);
+}
+.btn-desencriptar:hover {
+    background-color: var(--hover);
+}
+
+.resposta {
+    padding: 10px;
+}
+
+.mensagem {
+    width: 250px;
+    height: 327px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.copyButtoon {
+    width: 190px;
+    height: 55px;
+    background-color: var(--corterciaria);
+    border: none;
+    border-radius: 16px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    color: var(--corprimaria);
+}
+.copyButtoon:hover {
+    background-color: var(--hover);
+}
+
+.rodape {
+    background-color: var(--corterciaria);
+    text-align: center;
+    padding: 15px;
+    border: none;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--corprimaria);
+}

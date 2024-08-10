@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Challenge ONE & Alura</title>
+</head>
+<body>
+    <header class="logo">
+        <img src="./assets/Frame 6.png" alt="logoAlura">
+    </header>
+    <main class="apresentacao-principal">
+        <section class="areaCrip">
+            <textarea class="text-area" cols="60" rows="10" placeholder="Digite o texto"></textarea>
+            <div class="atencao">
+                <h6>
+                    <img src="./assets/26a0.png" alt="">
+                    Apenas letras minúsculas e sem acento.
+                </h6>
+            </div>
+            <div class="button">
+                <button class="btn-encriptar" onclick="btnEncriptar()"> Criptografar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+        <section class="resposta">
+            <textarea class="mensagem" cols="60" rows="4" placeholder="Resultado da mensagem."></textarea>
+            <div>
+                <button class="copyButtoon" onclick="copyText()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="rodape">Desenvolvido por Viviane Ferreira.</p>
+    </footer>
+</body>
+<script src="./interaction/app.js"></script>
+</html>
